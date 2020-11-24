@@ -1,6 +1,13 @@
 import React, { useEffect} from "react";
 // import axios from 'axios';
 import Card from "../components/Card";
+//pictures in assets
+import notetakerpic from '../assets/note-taker.jpg'
+import weatherpic from '../assets/weather.jpg'
+import quizpic from '../assets/quiz.jpg'
+import jobpic from '../assets/find-a-job.jpg'
+import chatterladderpic from '../assets/chatterladder.jpg'
+import budgetpic from '../assets/budget.jpg'
 
 //npm install axios and npm install react-axios ran on terminal
 
@@ -20,7 +27,7 @@ function Portfolio( props ) {
           <Card
             name="Note Taker"
             titlecolor="red"
-            cardimg="assets/img/note-taker.jpg"
+            cardimg={notetakerpic}
             dayissued="2020-10-19"
             cardtext=""
             github="https://github.com/brooklynminor/Note-Taker.git"
@@ -30,7 +37,7 @@ function Portfolio( props ) {
           <Card
             name="Weather App"
             titlecolor="green"
-            cardimg="assets/img/weather.jpg"
+            cardimg={weatherpic}
             cardtext="A five day forcast."
             dayissued="2020-11-29"
             github="https://github.com/brooklynminor/Homework6-WeatherApp.git"
@@ -42,7 +49,7 @@ function Portfolio( props ) {
             name="Quiz"
             titlecolor="yellow"
             cardtext="A short pop-quiz on the Brooklyn Bridge."
-            cardimg="assets/img/quiz-time..jpg"
+            cardimg={quizpic}
             dayissued="2020-09-23"
             github="https://github.com/brooklynminor/Quiz.git"
 
@@ -55,7 +62,7 @@ function Portfolio( props ) {
             name="Progressive Budget"
             titlecolor="yellow"
             cardtext="An app that tracks finacial costs."
-            cardimg="assets/img/budget.jpg"
+            cardimg={budgetpic}
             dayissued="2020-11-11"
             github="https://github.com/brooklynminor/Progressive-Budget.git"
 
@@ -67,7 +74,7 @@ function Portfolio( props ) {
             titlecolor="yellow"
             cardtext="A website that renders
             job-listings and related novels."
-            cardimg="assets/img/Find-a-Job.jpg"
+            cardimg={jobpic}
             dayissued="2020-10-05"
             github="https://github.com/vicscherman/project1.git"
 
@@ -78,7 +85,7 @@ function Portfolio( props ) {
             name="Chatter Ladder"
             titlecolor="yellow"
             cardtext="A chat app with a variety of chat rooms."
-            cardimg="assets/img/chatterladder.jpg"
+            cardimg={chatterladderpic}
             dayissued="2020-11-03"
             github="https://github.com/skar45/Project-2.git"
 

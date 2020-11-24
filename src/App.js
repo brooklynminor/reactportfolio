@@ -35,7 +35,7 @@ function App() {
             <ContactInformation />
           </Route>
           <Route path="/">
-            <Home city='Toronto'/>
+            <Home />
           </Route>
         </Switch>
       </div>

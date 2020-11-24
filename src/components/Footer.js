@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Footer() {
     return (
         <footer className="sticky-bottom">
         <h4> +1(705)772-6735&nbsp; &nbsp; &nbsp; &nbsp;
@@ -8,3 +8,4 @@ export default function Navbar() {
     </footer>
     );
 }
+export default Footer;
